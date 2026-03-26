@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <title>Experiment 14</title>
+    </head>
+
+    <style>
+        body
+        {
+            background-image: url('black.jpeg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+        }
+
+        .container
+        {
+            display: grid;
+            grid-template-columns: repeat(2 , 1fr);
+            margin-top: 70px;
+            margin-left: 250px;
+            margin-right: 300px;
+        }
+
+        hr
+        {
+            color: bisque;
+        }
+
+        .img
+        {
+            border-radius: 30px;
+            box-shadow: 20px 15px 50px bisque;
+            height: 70vh;
+            width: 50vh;
+            margin-right: 50px;
+        }
+
+        p
+        {
+            transition: all 0.5s ease;
+        }
+
+        p:hover
+        {
+            transform: scale(1.1);
+            color: rgb(117, 66, 21);
+        }
+
+        .text
+        {
+            background-color:rgb(251, 227, 197);
+            color: rgb(21, 20, 20);
+            font-size: 20px;
+            font-weight: bolder;
+            font-family: 'Courier New';
+            width: 60vh;
+            height: 70vh;
+            line-height: 1.4;
+            box-shadow: 20px 15px 50px rgb(110, 82, 10);
+            border-radius: 30px;
+            margin-left: 50px;
+        }
+
+        .text:active
+        {
+            background-color: rgb(110, 107, 107);
+            color: bisque;
+        }
+
+        .extra
+        {
+            background-color: bisque;
+            height: 40px;
+            border-radius: 50px;
+            font-size: 25px;
+            padding: 10px;
+            margin-top: 20px;
+            width: 1200px;
+            font-weight: bolder;
+        }
+
+        .extra:hover
+        {
+            color: rgb(117, 66, 21);
+        }
+    </style>
+
+    <body>
+        <h1 style="color: bisque;">Experiment 14</h1>
+        <hr>
+
+        <div class="container">
+            <div class="image">
+                <img src="shrikrishna.jpeg" class="img" alt="Shri Krishna">
+            </div>
+
+            <div class="text">
+                <p>
+                    <br>
+                    वसुदेवसुतं देवं कंसचाणूरमर्दनम् । <br>
+                    देवकी परमानन्दं कृष्णं वन्दे जगद्गुरुम् ।। <br><br>
+                </p>
+
+                <p>
+                    <br>
+                    वृन्दावनेश्वरी राधा कृष्णो वृन्दावनेश्वरः । <br>
+                    जीवनेन धने नित्यं राधाकृष्णगतिर्मम ।। <br><br>
+                </p>
+
+                <p>
+                    <br>
+                    अतः सत्यं यतो धर्मो मतो हीरार्जवं यतः । <br>
+                    ततो भवति गोविन्दो यतः कृष्णस्ततो जयः ।।<br><br>
+                </p>
+
+                <p>
+                    <br>
+                    कर्मण्येवाधिकारस्ते मा फलेषु कदाचन । <br>
+                    मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ।।<br><br>
+                </p>
+
+            </div>
+        </div>
+
+        <marquee loop="infinite" direction="right" class="extra">"श्रीराधायै नमः" &nbsp;&nbsp; &nbsp; &nbsp;    "श्रीराधायै नमः"  &nbsp; &nbsp; &nbsp; &nbsp;    "श्रीराधायै नमः"   &nbsp; &nbsp; &nbsp; &nbsp;    "श्रीराधायै नमः"</marquee>
+        </div>
+    </body>
+</html>
